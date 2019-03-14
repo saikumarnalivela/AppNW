@@ -12,6 +12,12 @@
 		6525F5B0223ABCEF000BE268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6525F5AE223ABCEF000BE268 /* Main.storyboard */; };
 		6525F5B2223ABCF0000BE268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6525F5B1223ABCEF000BE268 /* Assets.xcassets */; };
 		6525F5B5223ABCF0000BE268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6525F5B3223ABCF0000BE268 /* LaunchScreen.storyboard */; };
+		6525F5BD223AC1FF000BE268 /* schoolTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6525F5BC223AC1FF000BE268 /* schoolTableViewController.swift */; };
+		6525F5BF223AC212000BE268 /* teamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6525F5BE223AC212000BE268 /* teamTableViewController.swift */; };
+		6525F5C1223AC223000BE268 /* studentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6525F5C0223AC223000BE268 /* studentViewController.swift */; };
+		6525F5C3223AC235000BE268 /* addschoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6525F5C2223AC235000BE268 /* addschoolViewController.swift */; };
+		6525F5C5223AC244000BE268 /* addteamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6525F5C4223AC244000BE268 /* addteamViewController.swift */; };
+		6525F5C7223AC3CE000BE268 /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6525F5C6223AC3CE000BE268 /* Schools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		6525F5B1223ABCEF000BE268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6525F5B4223ABCF0000BE268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6525F5B6223ABCF0000BE268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6525F5BC223AC1FF000BE268 /* schoolTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolTableViewController.swift; sourceTree = "<group>"; };
+		6525F5BE223AC212000BE268 /* teamTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamTableViewController.swift; sourceTree = "<group>"; };
+		6525F5C0223AC223000BE268 /* studentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentViewController.swift; sourceTree = "<group>"; };
+		6525F5C2223AC235000BE268 /* addschoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addschoolViewController.swift; sourceTree = "<group>"; };
+		6525F5C4223AC244000BE268 /* addteamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addteamViewController.swift; sourceTree = "<group>"; };
+		6525F5C6223AC3CE000BE268 /* Schools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,12 @@
 				6525F5AA223ABCEF000BE268 /* AppDelegate.swift */,
 				6525F5AC223ABCEF000BE268 /* ViewController.swift */,
 				6525F5AE223ABCEF000BE268 /* Main.storyboard */,
+				6525F5C6223AC3CE000BE268 /* Schools.swift */,
+				6525F5BE223AC212000BE268 /* teamTableViewController.swift */,
+				6525F5C0223AC223000BE268 /* studentViewController.swift */,
+				6525F5C2223AC235000BE268 /* addschoolViewController.swift */,
+				6525F5C4223AC244000BE268 /* addteamViewController.swift */,
+				6525F5BC223AC1FF000BE268 /* schoolTableViewController.swift */,
 				6525F5B1223ABCEF000BE268 /* Assets.xcassets */,
 				6525F5B3223ABCF0000BE268 /* LaunchScreen.storyboard */,
 				6525F5B6223ABCF0000BE268 /* Info.plist */,
@@ -135,7 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6525F5C5223AC244000BE268 /* addteamViewController.swift in Sources */,
+				6525F5BD223AC1FF000BE268 /* schoolTableViewController.swift in Sources */,
+				6525F5C1223AC223000BE268 /* studentViewController.swift in Sources */,
+				6525F5C7223AC3CE000BE268 /* Schools.swift in Sources */,
+				6525F5C3223AC235000BE268 /* addschoolViewController.swift in Sources */,
 				6525F5AD223ABCEF000BE268 /* ViewController.swift in Sources */,
+				6525F5BF223AC212000BE268 /* teamTableViewController.swift in Sources */,
 				6525F5AB223ABCEF000BE268 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
