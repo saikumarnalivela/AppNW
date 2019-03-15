@@ -9,7 +9,29 @@
 import UIKit
 
 class addteamViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak internal var teamname: UITextField!
+    
+    @IBOutlet weak internal var student1TF: UITextField!
+    
+    @IBOutlet weak internal var student2TF: UITextField!
+    
+    @IBOutlet weak internal var student3TF: UITextField!
+    var schooltest:school!
+    
+    @IBAction internal func doneBTN(_ sender: Any){
+        let t1 = teamname.text!
+        let l2 = student1TF.text!
+        let l3 = student2TF.text!
+        let l4 = student3TF.text!
+        schooltest.addTeam(name: t1, students: [l2,l3,l4])
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction internal func closeBTN(_ sender: Any){
+        self.dismiss(animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
